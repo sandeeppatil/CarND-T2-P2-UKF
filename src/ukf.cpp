@@ -157,8 +157,8 @@ void UKF::ProcessMeasurement(MeasurementPackage meas_package) {
 			cout<<"RADAR Update ";
 			this->UpdateRadar(meas_package);
 		}
-		//cout << "\nx_ =\t" << x_(0) << "\t" << x_(1) << "\t" << x_(2) << "\t" << x_(3) << "\t" << x_(4) << "\t" << endl;
-		//cout << "P_ = \n" << P_ << endl;
+		cout << "\nx_ =\t" << x_(0) << "\t" << x_(1) << "\t" << x_(2) << "\t" << x_(3) << "\t" << x_(4) << "\t" << endl;
+		cout << "P_ = \n" << P_ << endl;
 	}
 
 }
